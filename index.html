@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="icon/iconfont.css">
+    
+</head>
+<body>
+    <div class="viewrap">
+        <div class="header">
+            <h1>
+                <img src="image/logo.png" alt="">
+            </h1>
+            <a href="sous.html" class="sea">
+                <em class="iconfont">&#xe60a;</em>
+                <span>快速搜索游戏</span>
+            </a>
+            <a href="#" class="dl">
+                <em class="iconfont">&#xe621;</em>
+            </a>
+        </div>
+
+
+
+        <div class="banner">
+           
+                <div id="center">
+                    <ul id="opa">
+                        <li><img src="image/1.jpg"></li>
+                        <li><img src="image/2.jpg"></li>
+                        <li><img src="image/3.jpg"></li>
+                        <li><img src="image/4.jpg"></li>
+                        <li><img src="image/5.jpg"></li>
+                    </ul>
+                    <ul class="change">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            
+            
+        </div> 
+
+
+
+
+        <nav>
+            <a href="gamelist.html">
+                <em class="iconfont menu">&#xe609;</em>
+                <p>全部游戏</p>
+            </a>
+            <a href="index2.html">
+                <em class="iconfont menu">&#xe6e3;</em>
+                <p>首充号/续充</p>
+            </a>
+            <a href="#">
+                <em class="iconfont menu">&#xe627;</em>
+                <p>手游充值</p>
+            </a>
+            <a href="#">
+                <em class="iconfont menu">&#xe66a;</em>
+                <p>帐号交易</p>
+            </a>
+            <a href="#">
+                <em class="iconfont menu">&#xe61a;</em>
+                <p>便民中心</p>
+            </a>
+            <a href="#">
+                <em class="iconfont menu">&#xe6e5;</em>
+                <p>游戏下载</p>
+            </a>
+            <a href="#">
+                <em class="iconfont menu">&#xe6e7;</em>
+                <p>充APPStore</p>
+            </a>
+            <a href="#">
+                <em class="iconfont menu">&#xe6e4;</em>
+                <p>游戏币交易</p>
+            </a>
+
+        </nav>
+
+
+
+        <div class="news">
+             <em class="iconfont">&#xe604;</em>
+             <div id="news-com">
+                
+                 <ul id="con1">
+                    <li>
+                        <a href="#">
+                            <font color="red">M端微信支付功能上线啦！</font>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <font color="red">王者荣耀苹果版充值冰点价.</font>
+                        </a>
+                    </li> 
+
+                    <li>
+                        <a href="#">
+                            <font color="red">穿越火线苹果版充值特惠</font>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <font color="red">木蚂蚁店铺入驻 7881红包来助兴</font>
+                        </a>
+                    </li>
+
+
+
+
+
+                 </ul>
+                 <ul id="con2"></ul>
+             </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="hot-sale">
+            <h2 class="tit">特卖专场</h2>
+            <div class="sale-goods">
+                <a href="#"><img src="image/02.jpg" alt=""></a>
+                <a href="#"><img src="image/04.jpg" alt=""></a>
+                <a href="#"><img src="image/05.jpg" alt=""></a>
+                <a href="#"><img src="image/06.jpg" alt=""></a>
+            </div>
+        </div>
+
+
+
+        <div class="kf">
+            <div class="kf-com">
+                <a href="#" id="BizQQWPA" class="qq">
+                    <em class="iconfont">&#xe606;</em>
+                    <span>361052221</span>
+                </a>
+                <a href="#" class="dh">
+                    <em class="iconfont">&#xe669;</em>
+                    <span>4001877881</span>
+                </a>
+            </div>
+
+
+
+
+
+            <div class="qqyz">
+                <div class="kf-icon">
+                     <img src="image/icon-01.png" width="100%" alt="">
+                </div>
+                <input type="tel" id="kfqq" placeholder="请输入客服QQ">
+                <a href="#">验证</a>
+            </div>
+            </div>
+      
+
+
+
+        <div class="footer">
+            <a href="#">个人中心</a>
+            <span>|</span>
+            <a href="#">新手帮助</a>
+            <span>|</span>
+            <a href="#">商务合作</a>
+            
+            
+            <p>@2015 7881.com&nbsp;&nbsp;苏B1-20110004-4</p>
+
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/zepto_touch.js"></script>
+<script type="text/javascript">
+
+//文字消息滚动
+    
+    /*/*var con1 = document.getElementById('con1');
+    var con2 = document.getElementById('con2');
+
+    var speed = 100;
+    area.scrollTop = 0;
+    con2.innerHTML = con1.innerHTML;
+    function scrollUp(){
+         if(area.scrollTop >= con1.scrollHeight) {
+             area.scrollTop = 0;
+             }else{
+               area.scrollTop ++; 
+             } 
+    }
+    var myScroll = setInterval("scrollUp()",speed);
+    area.onmouseover = function(){
+         clearInterval(myScroll);
+    }
+    area.onmouseout = function(){
+         myScroll = setInterval("scrollUp()",speed);
+    }*/
+
+    var area= document.getElementById('news-com');
+    var iliHeight = document.getElementById('news-com').offsetHeight;//单行滚动的高度
+    
+    var speed = 50;//滚动的速度
+    var time;
+    var delay= 2000;
+    area.scrollTop=0;
+    area.innerHTML+=area.innerHTML;//克隆一份一样的内容
+    function startScroll(){
+     time=setInterval("scrollUp()",speed);
+     area.scrollTop++;
+     }
+     function scrollUp(){
+         if(area.scrollTop % iliHeight==0){
+             clearInterval(time);
+             setTimeout(startScroll,delay);
+            }else{
+                 area.scrollTop++;
+                 if(area.scrollTop >= area.scrollHeight/2){
+                     area.scrollTop =0;
+            }
+        }
+    }
+    setTimeout(startScroll,delay);
+
+//轮播图
+    var ind=0;//开始的位置为0
+    var t1;   //t1 定时器名字 
+    var dz='r';
+    var ileft = $('#center').width();
+
+    function move(){
+        var tag=-ind * ileft;//目标到哪里
+        $("#opa").stop(true,true).animate({left:tag},1000);//缓动
+        /*$("#btn li").removeClass('hover');
+        $("#btn li").eq(ind).addClass('hover');*/
+        $(".change li").eq(ind).addClass('active')
+                    .siblings().removeClass('active');
+    }
+
+    function auto(dz){//定义自动方法
+        if(dz=='r'){
+            ind++;
+           
+        }else{
+            ind--;
+           
+        }
+
+              //ind位置添加
+        
+        if(ind>=5){ //如果大于等于4
+         ind=0;     //ind=0
+        }
+        if(ind<0){
+            ind=4;
+        }
+        move();
+    }
+    function set(){
+        t1=setInterval(function(){
+           auto(dz);
+        },3000);
+    }
+    set();
+ 
+    $("#center ul").on("swipeLeft",function(){
+         
+        clearInterval(t1);
+        auto(dz);
+        set();
+       
+    });
+    
+    $("#center ul").on("swipeRight",function(){
+        clearInterval(t1);
+        ind--;
+        if(ind<0){
+            ind=4;
+        }
+        move();
+        set();
+    });
+
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

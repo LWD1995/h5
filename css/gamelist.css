@@ -1,0 +1,283 @@
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	ul,li{
+		list-style: none;
+	}
+	a{
+        color: #666;
+        text-decoration: none;
+    }
+	
+     @media screen and (min-width: 320px) {
+            html {font-size:20px}
+            body {font-size: 12px}
+        }
+        @media screen and (min-width: 360px) {
+            html {font-size:24px}
+            body {font-size: 12px}
+        }
+        @media screen and (min-width: 375px) {
+            html {font-size:25px}
+            body {font-size: 12px}
+        }
+        @media screen and (min-width: 384px) {
+            html {font-size:25.6px}
+            body {font-size: 14px}
+        }
+        @media screen and (min-width: 400px) {
+            html {font-size:26.67px}
+            body {font-size: 14px}
+        }
+        @media screen and (min-width: 414px) {
+            html {font-size:27.6px}
+            body {font-size: 14px}
+        }
+        @media screen and (min-width: 424px) {
+            html {font-size:28.27px}
+            body {font-size: 14px}
+        }
+        @media screen and (min-width: 480px) {
+            html {font-size:32px}
+            body {font-size: 15.36px}
+        }
+        @media screen and (min-width: 540px) {
+            html {font-size:36px}
+            body {font-size: 17.28px}
+        }
+        @media screen and (min-width: 720px) {
+            html {font-size:48px}
+            body {font-size: 23.04px}
+        }
+        @media screen and (min-width: 750px) {
+            html {font-size:50px}
+            body {font-size: 24px}
+        }
+    
+    body{
+        min-width: 320px;
+        color: #666;
+        position: relative;
+        height: 100%;
+        background: #efeff4;
+    }
+    .viewrap{
+        margin: 0px auto;
+        position: relative;
+    }
+    .header{
+        position: relative;
+        height: 2rem;
+        background: #3993cf;
+    }
+    
+    .header a{
+        position: absolute;
+        top: 0;
+        font-size: 1.1rem;
+        color: #fff!important;
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .header .back{
+        left: 0;
+    }
+    .header .home{
+        right: 0;
+    }
+    .header h2 {
+        text-align: center;
+        color: #fff;
+        line-height: 2rem;
+        font-size: 0.8rem;
+       
+    }
+    #content{
+        height: 24rem;
+        width: 100%;
+        background: #fff;
+    }
+
+    #content a.sea {
+        display: block;
+        margin-bottom: 0.2rem;
+        width: 100%;
+        height: 1.7rem;
+        line-height: 1.7rem;
+        background: #fff;
+        position: relative;
+        border-bottom: #e4e4e4 1px solid;
+    }
+    #content a.sea em{
+        position: absolute;
+        color: #aaa;
+        font-size: 0.86rem;
+        display: inline-block;
+        width: 2rem;
+        text-align: center;
+        line-height: 1.7rem;
+        left: 0;
+        top: 0;
+    }
+    #content a.sea span{
+        line-height: 1.7rem;
+        margin-left: 1.86rem;
+        font-size: 0.5rem;
+        color: #ccc;
+    }
+    .comtab-top{ 
+        padding: 0.48rem; 
+        background: #fff; 
+        border-top: #e4e4e4 1px solid; 
+        border-bottom: #e4e4e4 1px solid;
+    }
+    .comtab-top{ 
+        overflow: hidden;
+    }
+    .comtab-top li{ 
+        float: left; display: 
+        block; width: 50%; 
+        height: 1.68rem; 
+        -moz-user-select:none;
+        -webkit-user-select:none; 
+        box-sizing: border-box; 
+        border: #cccccc 1px solid; 
+        border-right:none; 
+        line-height: 1.68rem; 
+        text-align: center; 
+        font-size: 0.6rem; 
+        border-top-left-radius:0.24rem; 
+        border-bottom-left-radius:0.24rem;
+    }
+    .comtab-top li:last-child{ 
+        border-left: none; 
+        border-right: #cccccc 1px solid; 
+        border-top-left-radius:0rem; 
+        border-bottom-left-radius:0rem; 
+        border-top-right-radius:0.24rem; 
+        border-bottom-right-radius:0.24rem;
+    }
+    .comtab-top li.hover{ 
+        background: #3993cf; 
+        color: #fff; 
+        border: #3993cf 1px solid;
+    }
+    .f_comtab-bot{
+        display: block;
+        width: 100%;
+        height: 1.65rem;
+        padding: 0.2rem 0;
+    }
+    ul.pinxiang-list{ 
+        padding:10px; 
+        padding-top:0; 
+        padding-bottom:20px; 
+        width:100%; 
+        box-sizing:border-box; 
+        overflow-x:scroll; 
+        overflow-y:hidden; 
+        white-space: nowrap; 
+        float:left; 
+    }
+    ul.pinxiang-list li{
+        position:relative;
+        display:inline-block;
+        
+        width: 1.2rem;
+        height: 1.2rem;
+        text-align: center;
+        line-height: 1.2rem;
+        font-size: 0.7rem;
+        border:1px solid #ccc;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .hotgame-list{
+        padding: 0.72rem 0.4rem 0 0.4rem;
+        
+        border-bottom: #e4e4e4 1px solid;
+        border-top: #e4e4e4 1px solid;
+    }
+    .hotgame-list ul:nth-child(2){
+        display: none;
+    }
+    .hotgame-list ul li {
+        width: 33.33%;
+        padding: 0 0.4rem;
+        text-align: center;
+        float: left;
+        box-sizing: border-box;
+        margin-bottom: 0.72rem;
+    }
+    .hotgame-list ul li a {
+        display: block;
+        position: relative;
+    }
+    .hotgame-list ul li a .img-box {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0.32rem;
+        overflow: hidden;
+    }
+    .hotgame-list ul li a .img-box img {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+    .hotgame-list ul li a p {
+        font-size: 0.52rem;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: normal;
+    }
+    .footer {
+        text-align: center;
+        padding: 0.7rem 0;
+        width: 100%;
+        background: #efeff4;
+    }
+    .footer a {
+        color: #6a6a6a;
+        font-size: 0.54rem;
+        vertical-align: middle;
+    }
+    .footer em {
+        color: #d3d3d3;
+        margin: 0 0.4rem;
+    }
+    .footer p {
+        color: #a5a5a5;
+        margin-top: 0.2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+   
